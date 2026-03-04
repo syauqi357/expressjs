@@ -2,10 +2,28 @@
 @plugin '@tailwindcss/typography';
 
 @font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter/Inter-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter/Inter-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: 'KFGQPC';
 	src: url('/fonts/KFGQPC%20Uthmanic%20Script%20HAFS%20Regular.otf') format('opentype');
 	font-weight: 400;
 	font-display: swap;
+}
+
+html {
+	font-family: 'Inter', sans-serif;
 }
 
 html[lang='ar'],

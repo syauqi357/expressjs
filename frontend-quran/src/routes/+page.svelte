@@ -51,7 +51,7 @@
 					</div>
 					<h2 class="mb-1 text-lg font-bold text-black">{surah.namaLatin}</h2>
 					<p class="mb-2 text-sm text-gray-700">{surah.namaIndo}</p>
-					<div class="text-right font-serif text-3xl text-black" lang='ar' dir='rtl'>
+					<div class="text-right font-serif text-3xl text-black" lang="ar" dir="rtl">
 						{surah.namaArab}
 					</div>
 				</a>

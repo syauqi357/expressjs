@@ -76,16 +76,36 @@
 	<div class="mb-6">
 		<a
 			href="/"
-			class="mb-4 inline-block rounded border-2 border-blue-500 bg-blue-500 px-4 py-2 text-blue-50 transition-all hover:border-blue-600 hover:shadow-md"
+			aria-label="kembali"
+			class="mb-8 flex w-fit items-center justify-center gap-3 py-2 text-slate-500 transition-all hover:text-slate-700"
 		>
-			Kembali ke Daftar Surah
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				height="24px"
+				viewBox="0 0 24 24"
+				width="24px"
+				fill="currentColor"
+				><path d="M0 0h24v24H0z" fill="none" /><path
+					d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+				/></svg
+			>
+			<p>Kembali ke Daftar Surah</p>
 		</a>
 		{#if surahData.length > 0}
-			<h1 class="text-3xl font-bold text-black">{surahTitle}</h1>
-			<div class="mt-2 text-black">
-				<p>{surahData[0].namaArab}</p>
-				<p>{surahData[0].namaIndo}</p>
-				<p class="text-sm text-gray-600">{surahData[0].tempatTurun}</p>
+			<div>
+				<h1 class="text-4xl font-bold text-emerald-700">{surahTitle}</h1>
+				<div class="my-4 flex items-center gap-3 text-black">
+					<span lang="ar" class="text-3xl font-semibold">{surahData[0].namaArab}</span>
+					-
+					<span class="rounded-md bg-gray-200 px-3 py-1 text-lg font-semibold"
+						>{surahData[0].namaIndo}</span
+					>
+				</div>
+				<p
+					class="text-md w-fit cursor-pointer rounded-md px-3 py-1.5 text-gray-600 transition-all ease-in-out hover:bg-gray-100 hover:text-gray-800"
+				>
+					{surahData[0].tempatTurun}
+				</p>
 			</div>
 		{/if}
 
@@ -93,7 +113,7 @@
 			<div class="mt-4">
 				<input
 					type="text"
-					placeholder="Cari ayat nomor (contoh: 1, 5, 10)..."
+					placeholder="Cari nomor ayat (contoh: 1, 5, 10)..."
 					value={searchQuery}
 					oninput={(e) => {
 						if (e.target instanceof HTMLInputElement) {
@@ -101,7 +121,7 @@
 						}
 					}}
 					pattern="[0-9]*"
-					class="w-full border border-gray-300 rounded px-3 py-2 text-black placeholder-gray-500 focus:outline-none focus:border-blue-500"
+					class="w-full rounded-md border-2 border-gray-300 px-3 py-2 text-black placeholder-gray-500 transition-all ease-in-out focus:border-blue-500 focus:outline-none"
 				/>
 				{#if getFilteredVerses().length === 0 && searchQuery.trim()}
 					<p class="mt-2 text-sm text-gray-500">Tidak ada ayat dengan nomor "{searchQuery}"</p>
@@ -121,13 +141,40 @@
 				<div class="flex items-center justify-between gap-3 border-b border-gray-300 p-4">
 					<span class="font-bold text-black"> {verse.namaLatin} - Ayat {verse.verseID} </span>
 					<button
-						class="flex items-center justify-center rounded border border-gray-300 bg-white px-3 py-1.5 text-black transition-all hover:border-gray-500 hover:shadow-md"
+						class="text-blue flex items-center justify-center rounded border border-gray-300 bg-slate-50 px-3 py-1.5 transition-all hover:border-gray-300 hover:bg-slate-100"
 						onclick={() => handleCopy(verse)}
 					>
 						{#if copiedVerses[verse.verseID]}
-							copied
+							<div class="flex items-center justify-center gap-1 text-green-600">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									height="24px"
+									viewBox="0 0 24 24"
+									width="24px"
+									fill="currentColor"
+									><path d="M0 0h24v24H0z" fill="none" /><path
+										d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
+									/></svg
+								>
+								<span>copied</span>
+							</div>
 						{:else}
-							copy
+							<div class="flex items-center justify-center gap-2 text-slate-600">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									enable-background="new 0 0 24 24"
+									height="24px"
+									viewBox="0 0 24 24"
+									width="24px"
+									fill="currentColor"
+									><g><rect fill="none" height="24" width="24" /></g><g
+										><path
+											d="M15,20H5V7c0-0.55-0.45-1-1-1h0C3.45,6,3,6.45,3,7v13c0,1.1,0.9,2,2,2h10c0.55,0,1-0.45,1-1v0C16,20.45,15.55,20,15,20z M20,16V4c0-1.1-0.9-2-2-2H9C7.9,2,7,2.9,7,4v12c0,1.1,0.9,2,2,2h9C19.1,18,20,17.1,20,16z M18,16H9V4h9V16z"
+										/></g
+									></svg
+								>
+								<span>copy</span>
+							</div>
 						{/if}
 					</button>
 				</div>
@@ -135,13 +182,13 @@
 				<section class="bg-white p-4">
 					<div
 						class="mb-4 border-b border-gray-300 py-2 text-right font-serif text-3xl/16 text-black"
-						lang='ar'
-						dir='rtl'
+						lang="ar"
+						dir="rtl"
 					>
 						{verse.ayahText}
 					</div>
 					<div class="text-black">
-						<p class="mb-3 text-sm text-gray-600 italic">{verse.readText}</p>
+						<p class="mb-3 text-sm text-blue-400 italic">{verse.readText}</p>
 						<p lang="id" class="text-gray-800">{verse.indoText}</p>
 					</div>
 				</section>
