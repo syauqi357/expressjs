@@ -1,62 +1,62 @@
 [
-  {
-    "id": 6125,
-    "suraId": 97,
-    "verseID": 1,
-    "ayahText": "اِنَّآ اَنْزَلْنٰهُ فِيْ لَيْلَةِ الْقَدْرِ",
-    "indoText": "Sesungguhnya Kami telah menurunkannya (Al-Qur'an) pada malam qadar.",
-    "readText": "innā anzalnāhu fī lailatil-qadr",
-    "namaLatin": "Al-Qadr",
-    "namaArab": "القدر",
-    "namaIndo": "Kemuliaan",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6126,
-    "suraId": 97,
-    "verseID": 2,
-    "ayahText": "وَمَآ اَدْرٰىكَ مَا لَيْلَةُ الْقَدْرِۗ",
-    "indoText": "Dan tahukah kamu apakah malam kemuliaan itu?",
-    "readText": "wa mā adrāka mā lailatul-qadr",
-    "namaLatin": "Al-Qadr",
-    "namaArab": "القدر",
-    "namaIndo": "Kemuliaan",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6127,
-    "suraId": 97,
-    "verseID": 3,
-    "ayahText": "لَيْلَةُ الْقَدْرِ ەۙ خَيْرٌ مِّنْ اَلْفِ شَهْرٍۗ",
-    "indoText": "Malam kemuliaan itu lebih baik daripada seribu bulan.",
-    "readText": "lailatul-qadri khairum min alfi syahr",
-    "namaLatin": "Al-Qadr",
-    "namaArab": "القدر",
-    "namaIndo": "Kemuliaan",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6128,
-    "suraId": 97,
-    "verseID": 4,
-    "ayahText": "تَنَزَّلُ الْمَلٰۤىِٕكَةُ وَالرُّوْحُ فِيْهَا بِاِذْنِ رَبِّهِمْۚ مِنْ كُلِّ اَمْرٍۛ",
-    "indoText": "Pada malam itu turun para malaikat dan Ruh (Jibril) dengan izin Tuhannya untuk mengatur semua urusan.",
-    "readText": "tanazzalul-malā`ikatu war-rụḥu fīhā bi`iżni rabbihim, ming kulli amr",
-    "namaLatin": "Al-Qadr",
-    "namaArab": "القدر",
-    "namaIndo": "Kemuliaan",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6129,
-    "suraId": 97,
-    "verseID": 5,
-    "ayahText": "سَلٰمٌ ۛهِيَ حَتّٰى مَطْلَعِ الْفَجْرِ",
-    "indoText": "Sejahteralah (malam itu) sampai terbit fajar.",
-    "readText": "salāmun hiya ḥattā maṭla'il-fajr",
-    "namaLatin": "Al-Qadr",
-    "namaArab": "القدر",
-    "namaIndo": "Kemuliaan",
-    "tempatTurun": "Makkiyah"
-  }
+	{
+		"id": 6125,
+		"suraId": 97,
+		"verseID": 1,
+		"ayahText": "اِنَّآ اَنْزَلْنٰهُ فِيْ لَيْلَةِ الْقَدْرِ",
+		"indoText": "Sesungguhnya Kami telah menurunkannya (Al-Qur'an) pada malam qadar.",
+		"readText": "innā anzalnāhu fī lailatil-qadr",
+		"namaLatin": "Al-Qadr",
+		"namaArab": "القدر",
+		"namaIndo": "Kemuliaan",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6126,
+		"suraId": 97,
+		"verseID": 2,
+		"ayahText": "وَمَآ اَدْرٰىكَ مَا لَيْلَةُ الْقَدْرِۗ",
+		"indoText": "Dan tahukah kamu apakah malam kemuliaan itu?",
+		"readText": "wa mā adrāka mā lailatul-qadr",
+		"namaLatin": "Al-Qadr",
+		"namaArab": "القدر",
+		"namaIndo": "Kemuliaan",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6127,
+		"suraId": 97,
+		"verseID": 3,
+		"ayahText": "لَيْلَةُ الْقَدْرِ ەۙ خَيْرٌ مِّنْ اَلْفِ شَهْرٍۗ",
+		"indoText": "Malam kemuliaan itu lebih baik daripada seribu bulan.",
+		"readText": "lailatul-qadri khairum min alfi syahr",
+		"namaLatin": "Al-Qadr",
+		"namaArab": "القدر",
+		"namaIndo": "Kemuliaan",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6128,
+		"suraId": 97,
+		"verseID": 4,
+		"ayahText": "تَنَزَّلُ الْمَلٰۤىِٕكَةُ وَالرُّوْحُ فِيْهَا بِاِذْنِ رَبِّهِمْۚ مِنْ كُلِّ اَمْرٍۛ",
+		"indoText": "Pada malam itu turun para malaikat dan Ruh (Jibril) dengan izin Tuhannya untuk mengatur semua urusan.",
+		"readText": "tanazzalul-malā`ikatu war-rụḥu fīhā bi`iżni rabbihim, ming kulli amr",
+		"namaLatin": "Al-Qadr",
+		"namaArab": "القدر",
+		"namaIndo": "Kemuliaan",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6129,
+		"suraId": 97,
+		"verseID": 5,
+		"ayahText": "سَلٰمٌ ۛهِيَ حَتّٰى مَطْلَعِ الْفَجْرِ",
+		"indoText": "Sejahteralah (malam itu) sampai terbit fajar.",
+		"readText": "salāmun hiya ḥattā maṭla'il-fajr",
+		"namaLatin": "Al-Qadr",
+		"namaArab": "القدر",
+		"namaIndo": "Kemuliaan",
+		"tempatTurun": "Makkiyah"
+	}
 ]

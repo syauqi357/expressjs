@@ -1,74 +1,74 @@
 [
-  {
-    "id": 6230,
-    "suraId": 114,
-    "verseID": 1,
-    "ayahText": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ",
-    "indoText": "Katakanlah, “Aku berlindung kepada Tuhannya manusia,",
-    "readText": "qul a'ụżu birabbin-nās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6231,
-    "suraId": 114,
-    "verseID": 2,
-    "ayahText": "مَلِكِ النَّاسِۙ",
-    "indoText": "Raja manusia,",
-    "readText": "malikin-nās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6232,
-    "suraId": 114,
-    "verseID": 3,
-    "ayahText": "اِلٰهِ النَّاسِۙ",
-    "indoText": "sembahan manusia,",
-    "readText": "ilāhin-nās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6233,
-    "suraId": 114,
-    "verseID": 4,
-    "ayahText": "مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ",
-    "indoText": "dari kejahatan (bisikan) setan yang bersembunyi,",
-    "readText": "min syarril-waswāsil-khannās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6234,
-    "suraId": 114,
-    "verseID": 5,
-    "ayahText": "الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ",
-    "indoText": "yang membisikkan (kejahatan) ke dalam dada manusia,",
-    "readText": "allażī yuwaswisu fī ṣudụrin-nās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6235,
-    "suraId": 114,
-    "verseID": 6,
-    "ayahText": "مِنَ الْجِنَّةِ وَالنَّاسِ",
-    "indoText": "dari (golongan) jin dan manusia.”",
-    "readText": "minal-jinnati wan-nās",
-    "namaLatin": "An-Nas",
-    "namaArab": "الناس",
-    "namaIndo": "Manusia",
-    "tempatTurun": "Makkiyah"
-  }
+	{
+		"id": 6230,
+		"suraId": 114,
+		"verseID": 1,
+		"ayahText": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ",
+		"indoText": "Katakanlah, “Aku berlindung kepada Tuhannya manusia,",
+		"readText": "qul a'ụżu birabbin-nās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6231,
+		"suraId": 114,
+		"verseID": 2,
+		"ayahText": "مَلِكِ النَّاسِۙ",
+		"indoText": "Raja manusia,",
+		"readText": "malikin-nās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6232,
+		"suraId": 114,
+		"verseID": 3,
+		"ayahText": "اِلٰهِ النَّاسِۙ",
+		"indoText": "sembahan manusia,",
+		"readText": "ilāhin-nās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6233,
+		"suraId": 114,
+		"verseID": 4,
+		"ayahText": "مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ",
+		"indoText": "dari kejahatan (bisikan) setan yang bersembunyi,",
+		"readText": "min syarril-waswāsil-khannās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6234,
+		"suraId": 114,
+		"verseID": 5,
+		"ayahText": "الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ",
+		"indoText": "yang membisikkan (kejahatan) ke dalam dada manusia,",
+		"readText": "allażī yuwaswisu fī ṣudụrin-nās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6235,
+		"suraId": 114,
+		"verseID": 6,
+		"ayahText": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+		"indoText": "dari (golongan) jin dan manusia.”",
+		"readText": "minal-jinnati wan-nās",
+		"namaLatin": "An-Nas",
+		"namaArab": "الناس",
+		"namaIndo": "Manusia",
+		"tempatTurun": "Makkiyah"
+	}
 ]

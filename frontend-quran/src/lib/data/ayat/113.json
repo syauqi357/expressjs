@@ -1,62 +1,62 @@
 [
-  {
-    "id": 6225,
-    "suraId": 113,
-    "verseID": 1,
-    "ayahText": "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ",
-    "indoText": "Katakanlah, “Aku berlindung kepada Tuhan yang menguasai subuh (fajar),",
-    "readText": "qul a'ụżu birabbil-falaq",
-    "namaLatin": "Al-Falaq",
-    "namaArab": "الفلق",
-    "namaIndo": "Waktu Subuh",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6226,
-    "suraId": 113,
-    "verseID": 2,
-    "ayahText": "مِنْ شَرِّ مَا خَلَقَۙ",
-    "indoText": "dari kejahatan (makhluk yang) Dia ciptakan,",
-    "readText": "min syarri mā khalaq",
-    "namaLatin": "Al-Falaq",
-    "namaArab": "الفلق",
-    "namaIndo": "Waktu Subuh",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6227,
-    "suraId": 113,
-    "verseID": 3,
-    "ayahText": "وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
-    "indoText": "dan dari kejahatan malam apabila telah gelap gulita,",
-    "readText": "wa min syarri gāsiqin iżā waqab",
-    "namaLatin": "Al-Falaq",
-    "namaArab": "الفلق",
-    "namaIndo": "Waktu Subuh",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6228,
-    "suraId": 113,
-    "verseID": 4,
-    "ayahText": "وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ",
-    "indoText": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),",
-    "readText": "wa min syarrin-naffāṡāti fil-'uqad",
-    "namaLatin": "Al-Falaq",
-    "namaArab": "الفلق",
-    "namaIndo": "Waktu Subuh",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6229,
-    "suraId": 113,
-    "verseID": 5,
-    "ayahText": "وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
-    "indoText": "dan dari kejahatan orang yang dengki apabila dia dengki.”",
-    "readText": "wa min syarri ḥāsidin iżā ḥasad",
-    "namaLatin": "Al-Falaq",
-    "namaArab": "الفلق",
-    "namaIndo": "Waktu Subuh",
-    "tempatTurun": "Makkiyah"
-  }
+	{
+		"id": 6225,
+		"suraId": 113,
+		"verseID": 1,
+		"ayahText": "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ",
+		"indoText": "Katakanlah, “Aku berlindung kepada Tuhan yang menguasai subuh (fajar),",
+		"readText": "qul a'ụżu birabbil-falaq",
+		"namaLatin": "Al-Falaq",
+		"namaArab": "الفلق",
+		"namaIndo": "Waktu Subuh",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6226,
+		"suraId": 113,
+		"verseID": 2,
+		"ayahText": "مِنْ شَرِّ مَا خَلَقَۙ",
+		"indoText": "dari kejahatan (makhluk yang) Dia ciptakan,",
+		"readText": "min syarri mā khalaq",
+		"namaLatin": "Al-Falaq",
+		"namaArab": "الفلق",
+		"namaIndo": "Waktu Subuh",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6227,
+		"suraId": 113,
+		"verseID": 3,
+		"ayahText": "وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
+		"indoText": "dan dari kejahatan malam apabila telah gelap gulita,",
+		"readText": "wa min syarri gāsiqin iżā waqab",
+		"namaLatin": "Al-Falaq",
+		"namaArab": "الفلق",
+		"namaIndo": "Waktu Subuh",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6228,
+		"suraId": 113,
+		"verseID": 4,
+		"ayahText": "وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ",
+		"indoText": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),",
+		"readText": "wa min syarrin-naffāṡāti fil-'uqad",
+		"namaLatin": "Al-Falaq",
+		"namaArab": "الفلق",
+		"namaIndo": "Waktu Subuh",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6229,
+		"suraId": 113,
+		"verseID": 5,
+		"ayahText": "وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
+		"indoText": "dan dari kejahatan orang yang dengki apabila dia dengki.”",
+		"readText": "wa min syarri ḥāsidin iżā ḥasad",
+		"namaLatin": "Al-Falaq",
+		"namaArab": "الفلق",
+		"namaIndo": "Waktu Subuh",
+		"tempatTurun": "Makkiyah"
+	}
 ]

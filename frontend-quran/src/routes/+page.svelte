@@ -39,17 +39,19 @@
 			{#each surahs as surah}
 				<a
 					href="/surah/{surah.id}"
-					class="block cursor-pointer rounded-lg border border-gray-300 bg-white p-4 transition-all hover:border-gray-500 hover:shadow-md"
+					class="block cursor-pointer rounded-lg border border-blue-300 bg-white p-4 transition-all hover:border-blue-500 hover:shadow-sm"
 				>
 					<div class="mb-2 flex items-center justify-between">
-						<span class="rounded border border-gray-300 bg-white px-2 py-1 text-sm font-bold text-black">
+						<span
+							class="rounded border border-gray-300 bg-white px-2 py-1 text-sm font-bold text-black"
+						>
 							{surah.id}
 						</span>
 						<span class="text-xs text-gray-600">{surah.jumlahAyat} Ayat</span>
 					</div>
 					<h2 class="mb-1 text-lg font-bold text-black">{surah.namaLatin}</h2>
 					<p class="mb-2 text-sm text-gray-700">{surah.namaIndo}</p>
-					<div class="text-right font-serif text-xl text-black" lang="ar" dir="rtl">
+					<div class="text-right font-serif text-3xl text-black" lang='ar' dir='rtl'>
 						{surah.namaArab}
 					</div>
 				</a>

@@ -1,38 +1,38 @@
 [
-  {
-    "id": 6213,
-    "suraId": 110,
-    "verseID": 1,
-    "ayahText": "اِذَا جَاۤءَ نَصْرُ اللّٰهِ وَالْفَتْحُۙ",
-    "indoText": "Apabila telah datang pertolongan Allah dan kemenangan,",
-    "readText": "iżā jā`a naṣrullāhi wal-fat-ḥ",
-    "namaLatin": "An-Nasr",
-    "namaArab": "النصر",
-    "namaIndo": "Pertolongan",
-    "tempatTurun": "Madaniyah"
-  },
-  {
-    "id": 6214,
-    "suraId": 110,
-    "verseID": 2,
-    "ayahText": "وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللّٰهِ اَفْوَاجًاۙ",
-    "indoText": "dan engkau melihat manusia berbondong-bondong masuk agama Allah,",
-    "readText": "wa ra`aitan-nāsa yadkhulụna fī dīnillāhi afwājā",
-    "namaLatin": "An-Nasr",
-    "namaArab": "النصر",
-    "namaIndo": "Pertolongan",
-    "tempatTurun": "Madaniyah"
-  },
-  {
-    "id": 6215,
-    "suraId": 110,
-    "verseID": 3,
-    "ayahText": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ اِنَّهٗ كَانَ تَوَّابًا",
-    "indoText": "maka bertasbihlah dalam dengan Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat.",
-    "readText": "fa sabbiḥ biḥamdi rabbika wastagfir-h, innahụ kāna tawwābā",
-    "namaLatin": "An-Nasr",
-    "namaArab": "النصر",
-    "namaIndo": "Pertolongan",
-    "tempatTurun": "Madaniyah"
-  }
+	{
+		"id": 6213,
+		"suraId": 110,
+		"verseID": 1,
+		"ayahText": "اِذَا جَاۤءَ نَصْرُ اللّٰهِ وَالْفَتْحُۙ",
+		"indoText": "Apabila telah datang pertolongan Allah dan kemenangan,",
+		"readText": "iżā jā`a naṣrullāhi wal-fat-ḥ",
+		"namaLatin": "An-Nasr",
+		"namaArab": "النصر",
+		"namaIndo": "Pertolongan",
+		"tempatTurun": "Madaniyah"
+	},
+	{
+		"id": 6214,
+		"suraId": 110,
+		"verseID": 2,
+		"ayahText": "وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللّٰهِ اَفْوَاجًاۙ",
+		"indoText": "dan engkau melihat manusia berbondong-bondong masuk agama Allah,",
+		"readText": "wa ra`aitan-nāsa yadkhulụna fī dīnillāhi afwājā",
+		"namaLatin": "An-Nasr",
+		"namaArab": "النصر",
+		"namaIndo": "Pertolongan",
+		"tempatTurun": "Madaniyah"
+	},
+	{
+		"id": 6215,
+		"suraId": 110,
+		"verseID": 3,
+		"ayahText": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ اِنَّهٗ كَانَ تَوَّابًا",
+		"indoText": "maka bertasbihlah dalam dengan Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat.",
+		"readText": "fa sabbiḥ biḥamdi rabbika wastagfir-h, innahụ kāna tawwābā",
+		"namaLatin": "An-Nasr",
+		"namaArab": "النصر",
+		"namaIndo": "Pertolongan",
+		"tempatTurun": "Madaniyah"
+	}
 ]

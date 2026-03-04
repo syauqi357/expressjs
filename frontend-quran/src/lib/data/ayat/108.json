@@ -1,38 +1,38 @@
 [
-  {
-    "id": 6204,
-    "suraId": 108,
-    "verseID": 1,
-    "ayahText": "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ",
-    "indoText": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak.",
-    "readText": "innā a'ṭainākal-kauṡar",
-    "namaLatin": "Al-Kausar",
-    "namaArab": "الكوثر",
-    "namaIndo": "Nikmat yang Berlimpah",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6205,
-    "suraId": 108,
-    "verseID": 2,
-    "ayahText": "فَصَلِّ لِرَبِّكَ وَانْحَرْۗ",
-    "indoText": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah).",
-    "readText": "fa ṣalli lirabbika wan-ḥar",
-    "namaLatin": "Al-Kausar",
-    "namaArab": "الكوثر",
-    "namaIndo": "Nikmat yang Berlimpah",
-    "tempatTurun": "Makkiyah"
-  },
-  {
-    "id": 6206,
-    "suraId": 108,
-    "verseID": 3,
-    "ayahText": "اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ",
-    "indoText": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah).",
-    "readText": "inna syāni`aka huwal-abtar",
-    "namaLatin": "Al-Kausar",
-    "namaArab": "الكوثر",
-    "namaIndo": "Nikmat yang Berlimpah",
-    "tempatTurun": "Makkiyah"
-  }
+	{
+		"id": 6204,
+		"suraId": 108,
+		"verseID": 1,
+		"ayahText": "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ",
+		"indoText": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak.",
+		"readText": "innā a'ṭainākal-kauṡar",
+		"namaLatin": "Al-Kausar",
+		"namaArab": "الكوثر",
+		"namaIndo": "Nikmat yang Berlimpah",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6205,
+		"suraId": 108,
+		"verseID": 2,
+		"ayahText": "فَصَلِّ لِرَبِّكَ وَانْحَرْۗ",
+		"indoText": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah).",
+		"readText": "fa ṣalli lirabbika wan-ḥar",
+		"namaLatin": "Al-Kausar",
+		"namaArab": "الكوثر",
+		"namaIndo": "Nikmat yang Berlimpah",
+		"tempatTurun": "Makkiyah"
+	},
+	{
+		"id": 6206,
+		"suraId": 108,
+		"verseID": 3,
+		"ayahText": "اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ",
+		"indoText": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah).",
+		"readText": "inna syāni`aka huwal-abtar",
+		"namaLatin": "Al-Kausar",
+		"namaArab": "الكوثر",
+		"namaIndo": "Nikmat yang Berlimpah",
+		"tempatTurun": "Makkiyah"
+	}
 ]

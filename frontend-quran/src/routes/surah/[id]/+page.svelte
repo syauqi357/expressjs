@@ -22,6 +22,9 @@
 	/** @type {boolean} */
 	let loading = $state(true);
 
+	/** @type {string} */
+	let searchQuery = $state('');
+
 	onMount(async () => {
 		try {
 			const surahId = $page.params.id;
@@ -70,18 +73,49 @@
 			copiedVerses[verse.verseID] = false;
 		}, 1000);
 	}
+
+	/**
+	 * Filter verses based on search query
+	 */
+	function getFilteredVerses() {
+		if (!searchQuery.trim()) return surahData;
+		const query = searchQuery.toLowerCase().trim();
+		return surahData.filter(verse => 
+			verse.verseID.toString().includes(query)
+		);
+	}
 </script>
 
 <main class="min-h-screen bg-white p-3">
 	<div class="mb-6">
 		<a
 			href="/"
-			class="mb-4 inline-block rounded border border-gray-300 bg-white px-4 py-2 text-black transition-all hover:border-gray-500 hover:shadow-md"
+			class="mb-4 inline-block rounded border-2 border-blue-500 bg-blue-500 px-4 py-2 text-blue-50 transition-all hover:border-blue-600 hover:shadow-md"
 		>
-			← Kembali ke Daftar Surah
+			Kembali ke Daftar Surah
 		</a>
-		{#if surahTitle}
+		{#if surahData}
 			<h1 class="text-3xl font-bold text-black">{surahTitle}</h1>
+		{/if}
+
+		{#if !loading}
+			<div class="mt-4">
+				<input
+					type="text"
+					placeholder="Cari ayat nomor (contoh: 1, 5, 10)..."
+					value={searchQuery}
+					oninput={(e) => {
+						if (e.target instanceof HTMLInputElement) {
+							searchQuery = e.target.value.replace(/[^0-9]/g, '');
+						}
+					}}
+					pattern="[0-9]*"
+					class="w-full border border-gray-300 rounded px-3 py-2 text-black placeholder-gray-500 focus:outline-none focus:border-blue-500"
+				/>
+				{#if getFilteredVerses().length === 0 && searchQuery.trim()}
+					<p class="mt-2 text-sm text-gray-500">Tidak ada ayat dengan nomor "{searchQuery}"</p>
+				{/if}
+			</div>
 		{/if}
 	</div>
 
@@ -90,7 +124,7 @@
 	{:else if surahData.length === 0}
 		<div class="text-center text-gray-500">Tidak ada data ayat</div>
 	{:else}
-		{#each surahData as verse}
+		{#each getFilteredVerses() as verse}
 			<div class="mb-4 overflow-hidden rounded-md border border-gray-300 bg-white">
 				<!-- upper head -->
 				<div class="flex items-center justify-between gap-3 border-b border-gray-300 p-4">
@@ -109,14 +143,14 @@
 				<!-- content -->
 				<section class="bg-white p-4">
 					<div
-						class="mb-4 border-b border-gray-300 py-2 text-right font-serif text-3xl text-black"
-						lang="ar"
-						dir="rtl"
+						class="mb-4 border-b border-gray-300 py-2 text-right font-serif text-3xl/16 text-black"
+						lang='ar'
+						dir='rtl'
 					>
 						{verse.ayahText}
 					</div>
 					<div class="text-black">
-						<p class="mb-1 text-sm italic text-gray-700">{verse.readText}</p>
+						<p class="mb-3 text-sm text-gray-600 italic">{verse.readText}</p>
 						<p lang="id" class="text-gray-800">{verse.indoText}</p>
 					</div>
 				</section>
