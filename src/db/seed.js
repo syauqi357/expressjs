@@ -1,4 +1,4 @@
-import fs, { Utf8Stream } from "fs";
+import fs from "fs";
 import path from "path";
 import pool from "./indexdb.js";
 
@@ -6,11 +6,6 @@ const filesAlquran = [
   "quran-indonesia-db/surah-indonesia.sql",
   "quran-indonesia-db/quran-indonesia.sql",
 ];
-
-const statements = sqlreadFile
-  .split(";")
-  .map((s) => s.trim)
-  .filter((s) => s.length > 0);
 
 try {
   for (const file of filesAlquran) {
