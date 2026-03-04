@@ -1,0 +1,50 @@
+[
+  {
+    "id": 6221,
+    "suraId": 112,
+    "verseID": 1,
+    "ayahText": "قُلْ هُوَ اللّٰهُ اَحَدٌۚ",
+    "indoText": "Katakanlah (Muhammad), “Dialah Allah, Yang Maha Esa.",
+    "readText": "qul huwallāhu aḥad",
+    "namaLatin": "Al-Ikhlas",
+    "namaArab": "الإخلاص",
+    "namaIndo": "Ikhlas",
+    "tempatTurun": "Makkiyah"
+  },
+  {
+    "id": 6222,
+    "suraId": 112,
+    "verseID": 2,
+    "ayahText": "اَللّٰهُ الصَّمَدُۚ",
+    "indoText": "Allah tempat meminta segala sesuatu.",
+    "readText": "allāhuṣ-ṣamad",
+    "namaLatin": "Al-Ikhlas",
+    "namaArab": "الإخلاص",
+    "namaIndo": "Ikhlas",
+    "tempatTurun": "Makkiyah"
+  },
+  {
+    "id": 6223,
+    "suraId": 112,
+    "verseID": 3,
+    "ayahText": "لَمْ يَلِدْ وَلَمْ يُوْلَدْۙ",
+    "indoText": "(Allah) tidak beranak dan tidak pula diperanakkan.",
+    "readText": "lam yalid wa lam yụlad",
+    "namaLatin": "Al-Ikhlas",
+    "namaArab": "الإخلاص",
+    "namaIndo": "Ikhlas",
+    "tempatTurun": "Makkiyah"
+  },
+  {
+    "id": 6224,
+    "suraId": 112,
+    "verseID": 4,
+    "ayahText": "وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ",
+    "indoText": "Dan tidak ada sesuatu yang setara dengan Dia.”",
+    "readText": "wa lam yakul lahụ kufuwan aḥad",
+    "namaLatin": "Al-Ikhlas",
+    "namaArab": "الإخلاص",
+    "namaIndo": "Ikhlas",
+    "tempatTurun": "Makkiyah"
+  }
+]
