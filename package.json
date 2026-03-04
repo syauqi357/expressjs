@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed":"node src/db/seed.js",
+    "seed": "node src/db/seed.js",
     "dev": "nodemon app.js",
     "format:check": "npx prettier . --check",
     "format": "npx prettier . --write"
