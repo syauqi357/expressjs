@@ -1,6 +1,6 @@
 import fs, { Utf8Stream } from "fs";
 import path from "path";
-import pool from "./indexdb.js";
+import pool from "./connectiondb.js";
 
 const filesAlquran = [
   "quran-indonesia-db/surah-indonesia.sql",

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import pool from "./indexdb.js";
+import pool from "./connectiondb.js";
 
 const OUTPUT_DIR = "src/data";
 const AYAT_DIR = `${OUTPUT_DIR}/ayat`;
