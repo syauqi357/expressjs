@@ -1,29 +1,23 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 
-	/** @typedef {Object} Verse
-	 * @property {string} namaLatin
-	 * @property {number} verseID
-	 * @property {string} ayahText
-	 * @property {string} readText
-	 * @property {string} indoText
-	 */
+	interface Verse {
+		namaLatin: string;
+		namaArab: string;
+		namaIndo: string;
+		tempatTurun: string;
+		verseID: number;
+		ayahText: string;
+		readText: string;
+		indoText: string;
+	}
 
-	/** @type {Verse[]} */
-	let surahData = $state([]);
-
-	/** @type {Object<number, boolean>} */
-	let copiedVerses = $state({});
-
-	/** @type {string} */
-	let surahTitle = $state('');
-
-	/** @type {boolean} */
-	let loading = $state(true);
-
-	/** @type {string} */
-	let searchQuery = $state('');
+	let surahData: Verse[] = $state([]);
+	let copiedVerses: Record<number, boolean> = $state({});
+	let surahTitle: string = $state('');
+	let loading: boolean = $state(true);
+	let searchQuery: string = $state('');
 
 	onMount(async () => {
 		try {
@@ -60,10 +54,7 @@
 		}
 	});
 
-	/**
-	 * @param {Verse} verse
-	 */
-	function handleCopy(verse) {
+	function handleCopy(verse: Verse): void {
 		const fullText = `${verse.ayahText}\n\n${verse.readText}\n\n${verse.indoText}`;
 		navigator.clipboard.writeText(fullText);
 
@@ -74,15 +65,10 @@
 		}, 1000);
 	}
 
-	/**
-	 * Filter verses based on search query
-	 */
-	function getFilteredVerses() {
+	function getFilteredVerses(): Verse[] {
 		if (!searchQuery.trim()) return surahData;
-		const query = searchQuery.toLowerCase().trim();
-		return surahData.filter(verse => 
-			verse.verseID.toString().includes(query)
-		);
+		const query: string = searchQuery.toLowerCase().trim();
+		return surahData.filter((verse) => verse.verseID.toString().includes(query));
 	}
 </script>
 
@@ -94,8 +80,13 @@
 		>
 			Kembali ke Daftar Surah
 		</a>
-		{#if surahData}
+		{#if surahData.length > 0}
 			<h1 class="text-3xl font-bold text-black">{surahTitle}</h1>
+			<div class="mt-2 text-black">
+				<p>{surahData[0].namaArab}</p>
+				<p>{surahData[0].namaIndo}</p>
+				<p class="text-sm text-gray-600">{surahData[0].tempatTurun}</p>
+			</div>
 		{/if}
 
 		{#if !loading}
