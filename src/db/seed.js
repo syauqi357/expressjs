@@ -1,24 +1,23 @@
-import fs from "fs";
+import fs, { Utf8Stream } from "fs";
 import path from "path";
 import pool from "./indexdb.js";
 
-const sqlreadFile = fs.readFileSync(
-  path.resolve("quran-indonesia-db/quran-indonesia.sql"),
-  "utf-8",
-);
+const filesAlquran = [
+  "quran-indonesia-db/surah-indonesia.sql",
+  "quran-indonesia-db/quran-indonesia.sql",
+];
 
 const statements = sqlreadFile
   .split(";")
   .map((s) => s.trim)
   .filter((s) => s.length > 0);
 
-for (const statement of statements) {
-  console.log("Executing:", statement.substring(0, 50));
-  await pool.query(statement);
-}
-
 try {
-  await pool.query(sqlreadFile);
+  for (const file of filesAlquran) {
+    const sql = fs.readFileSync(path.resolve(file), "Utf-8");
+    await pool.query(sql);
+    console.log(`✓ ${file} done`);
+  }
   console.log("Seeding done!");
 } catch (err) {
   console.error("Error:", err.message); // ← tambahin ini

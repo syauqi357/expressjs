@@ -1,11 +1,16 @@
 import express from "express";
 import dotenv from "dotenv";
+import quranRoutes from "./src/routes/quran.js";
 
 // learn today : to add env should already have dotenv.config(), if not there is undefined when it run
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT;
+
+app.use(express.json());
+
+app.use("/api", quranRoutes);
 
 app.get("/", (req, res) => {
   res.send("hello, express");
