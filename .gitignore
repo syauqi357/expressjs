@@ -1,4 +1,6 @@
 node_modules
+frontendquran/node_modules
+
 .idea
 .vscode
 .env

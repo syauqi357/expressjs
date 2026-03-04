@@ -3,20 +3,27 @@ import pool from "../db/connectiondb.js";
 
 const router = Router();
 
+// GET all surah + all ayat
 router.get("/surah", async (req, res) => {
   const [rows] = await pool.query(
-    "SELECT DISTINCT suraId FROM quran_id ORDER BY suraId",
+    "SELECT * FROM surah ORDER BY id"
   );
   res.json(rows);
 });
 
+// GET ayat by surah
 router.get("/surah/:suraId", async (req, res) => {
-  const [rows] = await pool.query(
-    "SELECT * FROM quran_id WHERE suraId = ? ORDER BY verseId",
-  );
+  const [rows] = await pool.query(`
+    SELECT q.*, s.namaLatin, s.namaArab, s.namaIndo, s.tempatTurun
+    FROM quran_id q
+    JOIN surah s ON q.suraId = s.id
+    WHERE q.suraId = ?
+    ORDER BY q.verseId
+  `, [req.params.suraId]);
   res.json(rows);
 });
 
+// get surah and ayat
 router.get("/surah/:suraId/ayat/:verseId", async (req, res) => {
   const [rows] = await pool.query(
     "SELECT * FROM quran_id WHERE suraId = ? AND verseId = ?",
